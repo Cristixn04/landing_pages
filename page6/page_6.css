@@ -204,18 +204,23 @@ nav {
 .features-bar {
   border: 1.5px solid var(--black);
   border-radius: 16px;
-  padding: 20px 28px;
+  padding: 20px 29px 20px 7vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 3vw;
   margin-top: 8px;
 }
 
-.feature-item {
+.feature-item img {
   display: flex;
   flex-direction: column;
   width: 1vw;
   gap: 1.5vw;
+}
+
+.loren {
+  display: flex;
+  flex-direction: row;
 }
 
 .feature-item .icon {
